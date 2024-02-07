@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@700&family=Satisfy&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #24252A;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252A;
+    padding: 30px 40px;
+
+}
+
+.titulo-pagina{
+    text-decoration: none;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+.botao-contato button{
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-color:transparent;
+    font-weight: 500;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.botao-contato button:hover{
+    transition: all 0.5s ease 0s;
+    transform: scale(1.1);
+    color: #00bf72;
+}
+
+.introdução{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24252A;
+    padding: 50px 0 100px 0;
+    gap: 30px;
+}
+
+.minha--foto{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.forma--geometrica{
+    margin: 15px;
+    background-color: #26658C;
+    padding: 30px 5%;
+    border-radius: 30% 70% 37% 63% / 43% 70% 30% 57% ;
+    transition: all 1s ease 0s;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+strong{
+    color: #00bf72;
+}
+
+h1{
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+
+.Sobre img{
+    height: 200px;
+    width: auto;
+    border-radius: 10px;
+    border: black solid 2px;
+}
+
+.Sobre{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 20px 30px;    
+}
+
+.caixa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+h2{
+    padding: 1em 0;
+    color: #051937;
+}
+
+cor{
+    color: #00bf72;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    height: 90px;
+    background-color: #4C5958;
+    padding: 10px;
+}
+
+.titulo--skills{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.tecnologias{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: x-large;
+    padding: 15px 10px;
+}
+
+
+
